@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="asserts/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <style>
+        #shadow {
+              width: 100%;
+              position: fixed;
+              height: 100%;
+              background-color: rgba(3,3,3,0.7);
+              display: none;
+              margin-top: -75px;
+          }
+          .popUp {
+              width: 600px;
+              height: auto;
+              margin: 0 auto;
+              display: none;
+              margin-top: 50px;
+        background: white;
+        padding: 20px;
+          }
+          .Login {
+              width: 150px;
+              height: 60px;
+              text-align: center;
+              background-color: palevioletred;
+              border: none;
+          }
+          .close {
+              width: 150px;
+              height: 60px;
+              text-align: center;
+              background-color: palevioletred;
+              color: gray;
+              border: 3px solid gray;
+              transition:  0.5s;
+              
+          }
+          
+          .close:hover {
+              background-color: gray;
+              color: palevioletred;
+              border: 3px dotted palevioletred;
+              font-size: 20px;
+     
+              transition:  0.5s;
+          }
+      </style>
+</head>
+
+<body>
+
+    <button class="Login">Log In</button>
+
+    <div id="shadow">
+        <div class="popUp">
+            <button class="close">×</button>
+            <h1 class="LoginTittle"> Login</h1>
+            <div class="InputForm">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="Email" placeholder="Enter Your Email">
+                <input type="password" placeholder="Enter Your password">
+            </div>
+            <div class="leftSide">
+                <input class="loginBtn" type="submit" value="submit" name="Login">
+                <input class="checkBox" type="checkbox" value="RemberMe" name="Rember Me">
+                <label>
+                    Rember Me
+                </label>
+            </div>
+            <div class="clear"></div>
+            <div class="rightSide">
+                <a href="#">Forget Your Password?</a>
+            </div>
+            <div class="clear"></div>
+            <div class="socialdiv">
+                <div class="socialleftside">
+                    <label>
+                        Login with :
+                    </label>
+                </div>
+                <div class="rightSide">
+                    <a class="socialIcon gplus" href="##"><i class="fab fa-google-plus-g"></i></a>
+                    <a class="socialIcon twitter" href="##"><i class="fab fa-twitter"></i></a>
+                    <a class="socialIcon fb" href="##"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="footer">
+                <a href="#">Create Account?</a> <label> | </label> <a href="#">Email Activiation</a>
+            </div>
+        </div>
+    </div>
+    <script src="asserts/js/jquery-3.3.1.min.js"></script>
+    <script src="asserts/js/main.js"></script>
+</body>

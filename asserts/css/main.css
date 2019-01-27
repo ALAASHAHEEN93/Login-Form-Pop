@@ -1,0 +1,99 @@
+body{
+        font-family: 'Cairo', sans-serif;
+direction: ltr;
+  
+ }
+
+
+.LoginTittle{
+    
+    text-align: center;
+    color: palevioletred;
+}
+.InputForm input{
+padding: 5px;
+margin:5px 0px ;
+    width: 95%;
+    height: 32px;
+}
+
+.Container{
+  
+      background: #edeef3;
+    margin: auto;
+        width:600px;
+
+       position: relative;
+  
+     border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+}
+
+.loginBtn{
+        background-color:  palevioletred;
+    width: 101px;
+    height: 40px;
+    margin-top: 10px;
+}
+.leftSide{
+    float: left;
+    width: 50%;
+}
+.clear{
+    clear: both;
+}
+.rightSide{
+     float: right;
+    width: 50%;
+    text-align: right;
+    text-decoration: none;
+    
+}
+.clear{
+    clear: both;
+}
+ 
+
+.socialleftside{
+     float: left;
+    width: 50%;
+}
+.rightSide{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.social{
+  margin-top: 15px;
+}
+
+a.socialIcon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    color:white;
+}
+
+.clear{
+    clear: both;
+}
+.gplus{
+    background: #e07b6f;
+}
+.fb{
+    background: #3d5b99;
+}
+.twitter{
+    background: #00aced;
+}
+.footer{
+    text-align: center;
+     background: #6b7a8f;
+    text-decoration: none;
+     color: #b1adad;
+    text-transform: uppercase;
+}
